@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Catálogo de Productos</title>
+<link rel="stylesheet" type="text/css" href="./css/estilos.css">
+<link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container" id="productos-container">
+        <h1>¡Transforma tu jardín!</h1>
+        <p class="text-center">
+            Explora nuestros jardines amplios y descubre cómo mejorar tu espacio al aire libre. 
+            Estos jardines te ofrecen versatilidad, privacidad y un toque natural para tu hogar.
+        </p>
+
+   
+        <!-- Portafolio -->
+        <div class="row portafolio g-0 px-4 mb-5">
+            <div class="col">
+                <h2 class="titulo text-center py-5">JARDINES AMPLIOS</h2>
+                <div class="row galeria">
+                    <!-- Galería de Imágenes -->
+                    <div class="container-imagen mb-4 col-4">
+                        <a href="#" data-bs-toggle="modal" data-img="images/amplio1.jpg">
+                            <img src="images/amplio1.jpg" class="d-block w-100" alt="Jardín Amplio 1">
+                        </a>
+                    </div>
+                    <div class="container-imagen mb-4 col-4">
+                        <a href="#" data-bs-toggle="modal" data-img="images/amplio3.jpg">
+                            <img src="images/amplio3.jpg" class="d-block w-100" alt="Jardín Amplio 2">
+                        </a>
+                    </div>
+                    <div class="container-imagen mb-4 col-4">
+                        <a href="#" data-bs-toggle="modal" data-img="images/amplio4.jpg">
+                            <img src="images/amplio4.jpg" class="d-block w-100" alt="Jardín Amplio 3">
+                        </a>
+                    </div>
+                    <div class="container-imagen mb-4 col-4">
+                        <a href="#" data-bs-toggle="modal" data-img="images/amplio5.jpg">
+                            <img src="images/amplio5.jpg" class="d-block w-100" alt="Jardín Amplio 3">
+                        </a>
+                    </div>
+                    
+                    <div class="container-imagen mb-4 col-4">
+                        <a href="#" data-bs-toggle="modal" data-img="images/amplio7.jpg">
+                            <img src="images/amplio7.jpg" class="d-block w-100" alt="Jardín Amplio 3">
+                        </a>
+                    </div>
+                    <div class="container-imagen mb-4 col-4">
+                        <a href="#" data-bs-toggle="modal" data-img="images/azotea5.jpg">
+                            <img src="images/azotea5.jpg" class="d-block w-100" alt="Jardín Amplio 3">
+                        </a>
+                    </div>
+                    <div class="container-imagen mb-4 col-4">
+                        <a href="#" data-bs-toggle="modal" data-img="images/amplio8.jpg">
+                            <img src="images/amplio8.jpg" class="d-block w-100" alt="Jardín Amplio 3">
+                        </a>
+                    </div>
+                    <div class="container-imagen mb-4 col-4">
+                        <a href="#" data-bs-toggle="modal" data-img="images/amplio9.jpg">
+                            <img src="images/amplio9.jpg" class="d-block w-100" alt="Jardín Amplio 3">
+                        </a>
+                    </div>
+                    <div class="container-imagen mb-4 col-4">
+                        <a href="#" data-bs-toggle="modal" data-img="images/azotea2.jpg">
+                            <img src="images/azotea2.jpg" class="d-block w-100" alt="Jardín Amplio 3">
+                        </a>
+                    </div>
+                    <!-- Agrega más imágenes según lo necesario -->
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <a href="../index.html" class="btn btn-primary">Regresar al Inicio</a>
+        </div>
+        <!-- Modal para imágenes -->
+        <div class="modal fade" id="modal-galeria" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Vista del Jardín</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img id="modal-imagen" src="" class="img-fluid" alt="Imagen ampliada">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
