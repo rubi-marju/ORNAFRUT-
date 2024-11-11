@@ -1,0 +1,230 @@
+body{
+    background: #F5F5DC;
+    font-family: "Rubik", sans-serif;
+}
+
+header .nav{
+    min-height: 80px;
+    overflow: hidden;
+    background:  #c1e1a5;
+}
+
+header .logo h2,
+header .logo p {
+    font-size: 26px;
+    display: inline-block;
+}
+
+header .logo .icono{
+    color: #acabab;
+}
+
+header .logo svg{
+    width: 20px;
+    height: 0px;
+}
+
+header .logo p {
+    color: #767373;
+}
+
+header .menu .c1 { background:#A3C586 ;}
+header .menu .c2 { background:#6B8E23 ;}
+header .menu .c3 { background:#8D6E63 ;}
+
+header .menu .c1:hover { background:#748e5d ;}
+header .menu .c2:hover { background:#536f1a ;}
+header .menu .c3:hover { background:#71574e ;}
+
+header .menu a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(172, 167, 167);
+}
+
+/*Portafolio*/
+.portafolio{
+    border-top: 4px solid #A3C586;
+    background: #f9f7f9a1;
+}
+
+.portafolio .titulo{
+    color:#6B8E23;
+    font-family: "Rubik", sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.portafolio .galeria .container-imagen{
+    max-height: 180px;
+    overflow: hidden;
+
+}
+
+.portafolio .galeria .container-imagen a{
+    background: #f0d9af;
+    display: inline-block;
+}
+
+.portafolio .galeria .container-imagen:hover img{
+    opacity: .3;
+}
+
+/*Ventana modal*/
+.modal-dialog{
+    max-width: 1000px ;
+}
+
+/*Acerca de */
+.acerca-de .foto .nombre{
+    font-weight: 300;
+    letter-spacing: 2px;
+
+}
+
+.acerca-de .info .titulo{
+    color: #6B8E23;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    font-style: normal;
+    margin-bottom: 30px;
+}
+
+.acerca-de .info .resumen{
+    letter-spacing: 3px;
+    font-size: 26px;
+    text-align: justify;
+}
+
+.acerca-de .info .label{
+    font-size: 22px;
+    font-weight: 500;
+    color: #6B8E23;
+    margin-bottom: 10px;
+}
+
+.acerca-de .info .progress{
+    background: #6B8E23;
+    border-radius: 1;
+    height: 25px;
+}
+
+.acerca-de .info .progress .progress-bar{
+    background: #6B8E23;
+    line-height: 25px;
+    padding-left: 20px;
+}
+
+/*Acerca de*/
+.contacto{
+    border-top: 4px solid #A3C586;
+    border-bottom: 4px solid #A3C586;
+}
+
+.contacto .titulo{
+    color: #6B8E23;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.contacto .formulario input[type="text"]
+.contacto .formulario input[type="email"]
+.contacto .formulario textarea{
+    padding: 30px;
+    border: none;
+    font-family: "Rubik", sans-serif;
+}
+
+.contacto .formulario textarea{
+    height: 150px;
+    min-height: 150px;
+    max-height: 250px;
+}
+
+.contacto .formulario .boton{
+    background-color: #A3C586;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Animaciones */
+}
+
+.contacto .formulario .boton:hover{
+    background: #748e5d;
+}
+
+/*footer*/
+.redes-sociales {
+    padding: 40px 0;
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.redes-sociales .icono {
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    background: #0a0a0a;
+    display: inline-block;
+    margin: 0px 20px;
+    text-decoration: none;
+    border-radius: 100px;
+    transition: all .3s;
+}
+.redes-sociales .icono svg {
+    width: 50px;
+    height: 50px;
+}
+.redes-sociales .telefono { background: #0b812a; }
+.redes-sociales .instagram { background: #ff248a; }
+.redes-sociales .facebook { background: #274a95; }
+
+/*Boton*/
+.boton-container {
+    display: flex;
+    justify-content: center;
+}
+.boton {
+    background-color: #A3C586;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.boton:hover, .boton:focus {
+    background-color:#748e5d;
+    transform: scale(1.05);
+    outline: none;
+}
+
+/* Responsividad */
+@media (max-width: 600px) {
+    .boton {
+        padding: 12px 24px;
+        font-size: 14px;
+    }
+    .redes-sociales {
+        flex-direction: column;
+        align-items: center;
+    }
+}
